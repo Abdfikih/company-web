@@ -96,7 +96,7 @@ function blog_articleFields() {
 }
 
 // tina/config.ts
-var branch = process.env.NEXT_PUBLIC_TINA_BRANCH || process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF || process.env.HEAD || "main";
+var branch = "main";
 var config_default = defineConfig({
   branch,
   clientId: "5bf577c0-b866-4437-a161-3d870e10c5c5",
